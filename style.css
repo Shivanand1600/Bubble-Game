@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   }
+   body{
+    width: 100%;
+    height: 100%;
+    background-color: aquamarine;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   }
+   #main{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   }
+   #main #padel{
+    height: 90%;
+    width: 80%;
+    background-color: aliceblue;
+    border-radius: 20px;
+    overflow: hidden;
+   }
+   #main #padel #ptop{
+    height: 15%;
+    width: 100%;
+    background-color: rgb(33, 94, 74);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+   }
+   #main #padel #ptop .box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   }
+   #main #padel #ptop .box p{
+    font-size: 25px;
+    font-weight:100;
+   }
+   .block{
+    height: 40px;
+    width: 40px;
+    background-color: aliceblue;
+    margin: 20px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   }
+  #pbtm{
+    height: calc(100% - 15%);
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+  #pbtm .nBox{
+    height: 40px;
+    width: 40px;
+    background-color: rgb(40, 107, 66);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all linear 1;
+  }
+  #pbtm .nBox:hover{
+    background-color: rgb(13, 53, 40);
+    color: white;
+    transform: scale(1.3);
+    font-size: 20px;
+  }
